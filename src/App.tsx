@@ -4,7 +4,7 @@ import { RotatingLogo } from './components/Logo';
 function App() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/SIGAI-App.apk';
+    link.href = 'https://drive.google.com/uc?export=download&id=1zbrTkqijDuyQZi8j9FZpsl9jOGpdoT5w';
     link.download = 'SIGAI-App.apk';
     document.body.appendChild(link);
     link.click();
@@ -18,7 +18,7 @@ function App() {
       animation: 'gradientShift 8s ease infinite'
     }}>
       <style>{`
-        @keyframes gradientShift{
+        @keyframes gradientShift {
           0% { background-position: 0% 50%; }
           25% { background-position: 50% 100%; }
           50% { background-position: 100% 50%; }
