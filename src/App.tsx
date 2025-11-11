@@ -18,7 +18,7 @@ function App() {
       animation: 'gradientShift 8s ease infinite'
     }}>
       <style>{`
-        @keyframes gradientShift {
+        @keyframes gradientShift{
           0% { background-position: 0% 50%; }
           25% { background-position: 50% 100%; }
           50% { background-position: 100% 50%; }
